@@ -32,6 +32,7 @@ public class ForaDataSource {
 		initUsers();
 		initSubjects();
 
+		// activer le chargement bdd
 		//fillMany(24);
 		
 	}

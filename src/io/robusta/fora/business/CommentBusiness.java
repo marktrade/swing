@@ -33,6 +33,7 @@ public class CommentBusiness {
 		c.setContent(content);
 		s.getComments().add(c);
 		synchronized (fora) {
+			// ajout dans bdd
 			fora.getComments().add(c);
 		}
 		return c;
